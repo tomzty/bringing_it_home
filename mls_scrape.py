@@ -8,6 +8,7 @@ from datetime import date
 import pandas as pd
 import numpy as np
 
+
 # print out result in console
 # j = json.dumps(amazon_price_dict, indent=4)
 # print(j)
@@ -91,10 +92,5 @@ def get_listings(driver: webdriver) -> pd.DataFrame:
     df = pd.DataFrame(list(zip(full_address_list, neighborhood_list,state_list,zipcode_list,bedr_list,bathr_list,sqft_list,asking_price_list)),columns=['full_address', 'neighborhood', 'state','zipcode','no_bedroom','no_bathroom','sqft','asking_Pr'])
     return df
     
-
-## --------------------- RUN CRAWLER ---------------------##
-
-listings = get_listings(driver=web_driver)
-print(listings)
 
 
