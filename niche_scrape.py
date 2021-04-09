@@ -14,23 +14,27 @@ from datetime import date
 web_driver = webdriver.Chrome('/usr/local/bin/chromedriver')
 
 
-def get_niche_grade(driver: webdriver) -> dict:
-    result = {}
+def get_niche_grade(driver: webdriver, property_id, int) -> dict:
+    # neighborhood = getNeighborhood(property_id)
+    result = []
     niche_base_url = 'https://www.niche.com/places-to-live/'
-    url = niche_base_url + 'brooklyn-kings-ny'
+    url = niche_base_url + 'washington-dc-district-of-columbia-dc'
     driver.get(url)
 
-    # card_ids = driver.find_elements_by_css_selector('.search-result__rarity')
-    # card_ids = list(filter(lambda x: '#' in x.text, card_ids))
-    # card_ids = list(map(lambda card_id: card_id.text[card_id.text.index('#')+1:], card_ids))
+    grades = driver.find_elements_by_css_selector('.profile-grade--two .niche__grade')
+    keys = ['public_school','safety','jobs','Nightlife','cost_of_living','housing']
+    values = [] 
+    for i in grades:
+        text_list = i.text.split()
+        if len(text_list) > 0:
+            values.append(text_list[1])
 
+    result = list(zip(keys, values))
+    print(result)
     return result
-
-
-
 
 ## --------------------- RUN CRAWLER ---------------------##
 
-grade_dict = get_niche_grade(driver=web_driver)
+grade_dict = get_niche_grade(driver=web_driver, property_id=1)
 
 
