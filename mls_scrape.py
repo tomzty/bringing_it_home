@@ -5,6 +5,8 @@ from selenium.common.exceptions import NoSuchElementException
 import json
 import csv
 from datetime import date
+import pandas as pd
+import numpy as np
 
 # print out result in console
 # j = json.dumps(amazon_price_dict, indent=4)
@@ -12,12 +14,6 @@ from datetime import date
 
 # set up
 web_driver = webdriver.Chrome('/usr/local/bin/chromedriver')
-
-# address --> full address, zipcode, state, neighborhood
-# no_bedroom
-# no_bathroom
-# sqft
-# asking_Pr
 
 # return a list of full_address
 # dtype: [String]
@@ -43,7 +39,7 @@ def get_neighborhood_state_zip(driver: webdriver) -> []:
         t_list = t.text.split()
         neighborhood_list.append(t_list[0][:-1])
         state_list.append(t_list[1])
-        zipcode_list.append(float(t_list[2]))
+        zipcode_list.append(int(t_list[2]))
     
     return neighborhood_list, state_list, zipcode_list
 
@@ -57,7 +53,6 @@ def get_bedr_bathr_sqft(driver: webdriver) -> []:
     
     for t in l:
         t_list = t.text.split(' | ')
-        print(t_list)
         if 'BR' in t_list[0]:
             bedr_list.append(int(t_list[0].split()[0]))
         if 'BA' in t_list[1]:
@@ -83,19 +78,23 @@ def get_price_list(driver: webdriver) -> []:
         price_list.append(float(price_str))
 
     return price_list
-def get_listings(driver: webdriver) -> []:
-    result = []
+def get_listings(driver: webdriver) -> pd.DataFrame:
+    
     listing_base_url = 'https://griffithpg.com/properties/'
     driver.get(listing_base_url)
 
-    # asking_price_list = get_price_list(driver)
-    # full_address_list = get_full_address(driver)
-    # neighborhood_list, state_list, zipcode_list = get_neighborhood_state_zip(driver)
+    asking_price_list = get_price_list(driver)
+    full_address_list = get_full_address(driver)
+    neighborhood_list, state_list, zipcode_list = get_neighborhood_state_zip(driver)
     bedr_list, bathr_list, sqft_list = get_bedr_bathr_sqft(driver)
-    return result
+
+    df = pd.DataFrame(list(zip(full_address_list, neighborhood_list,state_list,zipcode_list,bedr_list,bathr_list,sqft_list,asking_price_list)),columns=['full_address', 'neighborhood', 'state','zipcode','no_bedroom','no_bathroom','sqft','asking_Pr'])
+    return df
+    
 
 ## --------------------- RUN CRAWLER ---------------------##
 
 listings = get_listings(driver=web_driver)
+print(listings)
 
 
