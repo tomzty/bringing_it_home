@@ -1,0 +1,702 @@
+[
+    {
+        "bid_id": "0",
+        "no_bedroom": 1,
+        "no_bathroom": 1,
+        "sqft": 718,
+        "asking_price": 485000.0,
+        "create_at": "4/30/2021",
+        "address": {
+            "address": "401 13th St Ne Unitph1 WASHINGTON, DC 20002",
+            "state": "DC",
+            "zip": 20002,
+            "neighborhood": "WASHINGTON"
+        },
+        "neighborhood_score": {
+            "public_school": "C+",
+            "safety": "C",
+            "nightlife": "A+",
+            "cost_of_living": "A",
+            "housing": "A+",
+            "walkscore": "81",
+            "transitscore": "73",
+            "bikescore": "98"
+        },
+        "bid_detail": {
+            "waive_inspection": 1,
+            "personal_letter": 1,
+            "waive_appraisal": 1,
+            "all_cash": 1,
+            "escalation_clause": 1,
+            "increase_downpayment": 1,
+            "increase_earnest_money_deposit": 1,
+            "closing_date_flexibility": 1,
+            "bid_over_list_price": 10
+        }
+    },
+    {
+        "bid_id": "1",
+        "no_bedroom": 2,
+        "no_bathroom": 3,
+        "sqft": 1024,
+        "asking_price": 715000.0,
+        "create_at": "4/30/2021",
+        "address": {
+            "address": "641 Morton St Nw WASHINGTON, DC 20010",
+            "state": "DC",
+            "zip": 20010,
+            "neighborhood": "WASHINGTON"
+        },
+        "neighborhood_score": {
+            "public_school": "C+",
+            "safety": "C",
+            "nightlife": "A+",
+            "cost_of_living": "A",
+            "housing": "A+",
+            "walkscore": "81",
+            "transitscore": "73",
+            "bikescore": "98"
+        },
+        "bid_detail": {
+            "waive_inspection": 1,
+            "personal_letter": 1,
+            "waive_appraisal": 1,
+            "all_cash": 1,
+            "escalation_clause": 1,
+            "increase_downpayment": 1,
+            "increase_earnest_money_deposit": 1,
+            "closing_date_flexibility": 1,
+            "bid_over_list_price": 10
+        }
+    },
+    {
+        "bid_id": "2",
+        "no_bedroom": 4,
+        "no_bathroom": 3,
+        "sqft": 1692,
+        "asking_price": 975000.0,
+        "create_at": "4/30/2021",
+        "address": {
+            "address": "1213 Constitution Ave Ne WASHINGTON, DC 20002",
+            "state": "DC",
+            "zip": 20002,
+            "neighborhood": "WASHINGTON"
+        },
+        "neighborhood_score": {
+            "public_school": "C+",
+            "safety": "C",
+            "nightlife": "A+",
+            "cost_of_living": "A",
+            "housing": "A+",
+            "walkscore": "81",
+            "transitscore": "73",
+            "bikescore": "98"
+        },
+        "bid_detail": {
+            "waive_inspection": 1,
+            "personal_letter": 1,
+            "waive_appraisal": 1,
+            "all_cash": 1,
+            "escalation_clause": 1,
+            "increase_downpayment": 1,
+            "increase_earnest_money_deposit": 1,
+            "closing_date_flexibility": 1,
+            "bid_over_list_price": 10
+        }
+    },
+    {
+        "bid_id": "3",
+        "no_bedroom": 3,
+        "no_bathroom": 4,
+        "sqft": 2576,
+        "asking_price": 1395000.0,
+        "create_at": "4/30/2021",
+        "address": {
+            "address": "6302 Nw 30th St Nw WASHINGTON, DC 20015",
+            "state": "DC",
+            "zip": 20015,
+            "neighborhood": "WASHINGTON"
+        },
+        "neighborhood_score": {
+            "public_school": "C+",
+            "safety": "C",
+            "nightlife": "A+",
+            "cost_of_living": "A",
+            "housing": "A+",
+            "walkscore": "81",
+            "transitscore": "73",
+            "bikescore": "98"
+        },
+        "bid_detail": {
+            "waive_inspection": 1,
+            "personal_letter": 1,
+            "waive_appraisal": 1,
+            "all_cash": 1,
+            "escalation_clause": 1,
+            "increase_downpayment": 1,
+            "increase_earnest_money_deposit": 1,
+            "closing_date_flexibility": 1,
+            "bid_over_list_price": 10
+        }
+    },
+    {
+        "bid_id": "4",
+        "no_bedroom": 1,
+        "no_bathroom": 1,
+        "sqft": 473,
+        "asking_price": 390000.0,
+        "create_at": "4/30/2021",
+        "address": {
+            "address": "2030 8th St Nw Unit306 WASHINGTON, DC 20001",
+            "state": "DC",
+            "zip": 20001,
+            "neighborhood": "WASHINGTON"
+        },
+        "neighborhood_score": {
+            "public_school": "C+",
+            "safety": "C",
+            "nightlife": "A+",
+            "cost_of_living": "A",
+            "housing": "A+",
+            "walkscore": "81",
+            "transitscore": "73",
+            "bikescore": "98"
+        },
+        "bid_detail": {
+            "waive_inspection": 1,
+            "personal_letter": 1,
+            "waive_appraisal": 1,
+            "all_cash": 1,
+            "escalation_clause": 1,
+            "increase_downpayment": 1,
+            "increase_earnest_money_deposit": 1,
+            "closing_date_flexibility": 1,
+            "bid_over_list_price": 10
+        }
+    },
+    {
+        "bid_id": "5",
+        "no_bedroom": 1,
+        "no_bathroom": 1,
+        "sqft": 1470,
+        "asking_price": 279000.0,
+        "create_at": "4/30/2021",
+        "address": {
+            "address": "742 Main St WASHINGTON, VA 22747",
+            "state": "VA",
+            "zip": 22747,
+            "neighborhood": "WASHINGTON"
+        },
+        "neighborhood_score": {
+            "public_school": "C+",
+            "safety": "C",
+            "nightlife": "A+",
+            "cost_of_living": "A",
+            "housing": "A+",
+            "walkscore": "81",
+            "transitscore": "73",
+            "bikescore": "98"
+        },
+        "bid_detail": {
+            "waive_inspection": 1,
+            "personal_letter": 1,
+            "waive_appraisal": 1,
+            "all_cash": 1,
+            "escalation_clause": 1,
+            "increase_downpayment": 1,
+            "increase_earnest_money_deposit": 1,
+            "closing_date_flexibility": 1,
+            "bid_over_list_price": 10
+        }
+    },
+    {
+        "bid_id": "6",
+        "no_bedroom": 2,
+        "no_bathroom": 2,
+        "sqft": 975,
+        "asking_price": 649900.0,
+        "create_at": "4/30/2021",
+        "address": {
+            "address": "40 N St Ne Unit305 WASHINGTON, DC 20002",
+            "state": "DC",
+            "zip": 20002,
+            "neighborhood": "WASHINGTON"
+        },
+        "neighborhood_score": {
+            "public_school": "C+",
+            "safety": "C",
+            "nightlife": "A+",
+            "cost_of_living": "A",
+            "housing": "A+",
+            "walkscore": "81",
+            "transitscore": "73",
+            "bikescore": "98"
+        },
+        "bid_detail": {
+            "waive_inspection": 1,
+            "personal_letter": 1,
+            "waive_appraisal": 1,
+            "all_cash": 1,
+            "escalation_clause": 1,
+            "increase_downpayment": 1,
+            "increase_earnest_money_deposit": 1,
+            "closing_date_flexibility": 1,
+            "bid_over_list_price": 10
+        }
+    },
+    {
+        "bid_id": "7",
+        "no_bedroom": 2,
+        "no_bathroom": 2,
+        "sqft": 855,
+        "asking_price": 549000.0,
+        "create_at": "4/30/2021",
+        "address": {
+            "address": "804 21st St Ne Unit4 WASHINGTON, DC 20002",
+            "state": "DC",
+            "zip": 20002,
+            "neighborhood": "WASHINGTON"
+        },
+        "neighborhood_score": {
+            "public_school": "C+",
+            "safety": "C",
+            "nightlife": "A+",
+            "cost_of_living": "A",
+            "housing": "A+",
+            "walkscore": "81",
+            "transitscore": "73",
+            "bikescore": "98"
+        },
+        "bid_detail": {
+            "waive_inspection": 1,
+            "personal_letter": 1,
+            "waive_appraisal": 1,
+            "all_cash": 1,
+            "escalation_clause": 1,
+            "increase_downpayment": 1,
+            "increase_earnest_money_deposit": 1,
+            "closing_date_flexibility": 1,
+            "bid_over_list_price": 10
+        }
+    },
+    {
+        "bid_id": "8",
+        "no_bedroom": 1,
+        "no_bathroom": 1,
+        "sqft": 825,
+        "asking_price": 424900.0,
+        "create_at": "4/30/2021",
+        "address": {
+            "address": "804 21st St Ne Unit3 WASHINGTON, DC 20002",
+            "state": "DC",
+            "zip": 20002,
+            "neighborhood": "WASHINGTON"
+        },
+        "neighborhood_score": {
+            "public_school": "C+",
+            "safety": "C",
+            "nightlife": "A+",
+            "cost_of_living": "A",
+            "housing": "A+",
+            "walkscore": "81",
+            "transitscore": "73",
+            "bikescore": "98"
+        },
+        "bid_detail": {
+            "waive_inspection": 1,
+            "personal_letter": 1,
+            "waive_appraisal": 1,
+            "all_cash": 1,
+            "escalation_clause": 1,
+            "increase_downpayment": 1,
+            "increase_earnest_money_deposit": 1,
+            "closing_date_flexibility": 1,
+            "bid_over_list_price": 10
+        }
+    },
+    {
+        "bid_id": "9",
+        "no_bedroom": 2,
+        "no_bathroom": 1,
+        "sqft": 861,
+        "asking_price": 499000.0,
+        "create_at": "4/30/2021",
+        "address": {
+            "address": "401 13th St Ne Unitunit 403 WASHINGTON, DC 20002",
+            "state": "DC",
+            "zip": 20002,
+            "neighborhood": "WASHINGTON"
+        },
+        "neighborhood_score": {
+            "public_school": "C+",
+            "safety": "C",
+            "nightlife": "A+",
+            "cost_of_living": "A",
+            "housing": "A+",
+            "walkscore": "81",
+            "transitscore": "73",
+            "bikescore": "98"
+        },
+        "bid_detail": {
+            "waive_inspection": 1,
+            "personal_letter": 1,
+            "waive_appraisal": 1,
+            "all_cash": 1,
+            "escalation_clause": 1,
+            "increase_downpayment": 1,
+            "increase_earnest_money_deposit": 1,
+            "closing_date_flexibility": 1,
+            "bid_over_list_price": 10
+        }
+    },
+    {
+        "bid_id": "10",
+        "no_bedroom": 1,
+        "no_bathroom": 1,
+        "sqft": 1001,
+        "asking_price": 510000.0,
+        "create_at": "4/30/2021",
+        "address": {
+            "address": "3831 Rodman St Nw Unitf30 WASHINGTON, DC 20016",
+            "state": "DC",
+            "zip": 20016,
+            "neighborhood": "WASHINGTON"
+        },
+        "neighborhood_score": {
+            "public_school": "C+",
+            "safety": "C",
+            "nightlife": "A+",
+            "cost_of_living": "A",
+            "housing": "A+",
+            "walkscore": "81",
+            "transitscore": "73",
+            "bikescore": "98"
+        },
+        "bid_detail": {
+            "waive_inspection": 1,
+            "personal_letter": 1,
+            "waive_appraisal": 1,
+            "all_cash": 1,
+            "escalation_clause": 1,
+            "increase_downpayment": 1,
+            "increase_earnest_money_deposit": 1,
+            "closing_date_flexibility": 1,
+            "bid_over_list_price": 10
+        }
+    },
+    {
+        "bid_id": "11",
+        "no_bedroom": 4,
+        "no_bathroom": 5,
+        "sqft": 635,
+        "asking_price": 449000.0,
+        "create_at": "4/30/2021",
+        "address": {
+            "address": "1390 V St Nw Unit309 WASHINGTON, DC 20009",
+            "state": "DC",
+            "zip": 20009,
+            "neighborhood": "WASHINGTON"
+        },
+        "neighborhood_score": {
+            "public_school": "C+",
+            "safety": "C",
+            "nightlife": "A+",
+            "cost_of_living": "A",
+            "housing": "A+",
+            "walkscore": "81",
+            "transitscore": "73",
+            "bikescore": "98"
+        },
+        "bid_detail": {
+            "waive_inspection": 1,
+            "personal_letter": 1,
+            "waive_appraisal": 1,
+            "all_cash": 1,
+            "escalation_clause": 1,
+            "increase_downpayment": 1,
+            "increase_earnest_money_deposit": 1,
+            "closing_date_flexibility": 1,
+            "bid_over_list_price": 10
+        }
+    },
+    {
+        "bid_id": "12",
+        "no_bedroom": 4,
+        "no_bathroom": 6,
+        "sqft": 2604,
+        "asking_price": 1499000.0,
+        "create_at": "4/30/2021",
+        "address": {
+            "address": "231 Florida Ave Nw WASHINGTON, DC 20001",
+            "state": "DC",
+            "zip": 20001,
+            "neighborhood": "WASHINGTON"
+        },
+        "neighborhood_score": {
+            "public_school": "C+",
+            "safety": "C",
+            "nightlife": "A+",
+            "cost_of_living": "A",
+            "housing": "A+",
+            "walkscore": "81",
+            "transitscore": "73",
+            "bikescore": "98"
+        },
+        "bid_detail": {
+            "waive_inspection": 1,
+            "personal_letter": 1,
+            "waive_appraisal": 1,
+            "all_cash": 1,
+            "escalation_clause": 1,
+            "increase_downpayment": 1,
+            "increase_earnest_money_deposit": 1,
+            "closing_date_flexibility": 1,
+            "bid_over_list_price": 10
+        }
+    },
+    {
+        "bid_id": "13",
+        "no_bedroom": -1,
+        "no_bathroom": -1,
+        "sqft": 3160,
+        "asking_price": 3250000.0,
+        "create_at": "4/30/2021",
+        "address": {
+            "address": "1826 12th St Nw WASHINGTON, DC 20009",
+            "state": "DC",
+            "zip": 20009,
+            "neighborhood": "WASHINGTON"
+        },
+        "neighborhood_score": {
+            "public_school": "C+",
+            "safety": "C",
+            "nightlife": "A+",
+            "cost_of_living": "A",
+            "housing": "A+",
+            "walkscore": "81",
+            "transitscore": "73",
+            "bikescore": "98"
+        },
+        "bid_detail": {
+            "waive_inspection": 1,
+            "personal_letter": 1,
+            "waive_appraisal": 1,
+            "all_cash": 1,
+            "escalation_clause": 1,
+            "increase_downpayment": 1,
+            "increase_earnest_money_deposit": 1,
+            "closing_date_flexibility": 1,
+            "bid_over_list_price": 10
+        }
+    },
+    {
+        "bid_id": "14",
+        "no_bedroom": 2,
+        "no_bathroom": 2,
+        "sqft": -1,
+        "asking_price": 1499000.0,
+        "create_at": "4/30/2021",
+        "address": {
+            "address": "231 Florida Ave Nw WASHINGTON, DC 20001",
+            "state": "DC",
+            "zip": 20001,
+            "neighborhood": "WASHINGTON"
+        },
+        "neighborhood_score": {
+            "public_school": "C+",
+            "safety": "C",
+            "nightlife": "A+",
+            "cost_of_living": "A",
+            "housing": "A+",
+            "walkscore": "81",
+            "transitscore": "73",
+            "bikescore": "98"
+        },
+        "bid_detail": {
+            "waive_inspection": 1,
+            "personal_letter": 1,
+            "waive_appraisal": 1,
+            "all_cash": 1,
+            "escalation_clause": 1,
+            "increase_downpayment": 1,
+            "increase_earnest_money_deposit": 1,
+            "closing_date_flexibility": 1,
+            "bid_over_list_price": 10
+        }
+    },
+    {
+        "bid_id": "15",
+        "no_bedroom": 2,
+        "no_bathroom": 1,
+        "sqft": 825,
+        "asking_price": 424900.0,
+        "create_at": "4/30/2021",
+        "address": {
+            "address": "804 21st St Ne Unit2 WASHINGTON, DC 20002",
+            "state": "DC",
+            "zip": 20002,
+            "neighborhood": "WASHINGTON"
+        },
+        "neighborhood_score": {
+            "public_school": "C+",
+            "safety": "C",
+            "nightlife": "A+",
+            "cost_of_living": "A",
+            "housing": "A+",
+            "walkscore": "81",
+            "transitscore": "73",
+            "bikescore": "98"
+        },
+        "bid_detail": {
+            "waive_inspection": 1,
+            "personal_letter": 1,
+            "waive_appraisal": 1,
+            "all_cash": 1,
+            "escalation_clause": 1,
+            "increase_downpayment": 1,
+            "increase_earnest_money_deposit": 1,
+            "closing_date_flexibility": 1,
+            "bid_over_list_price": 10
+        }
+    },
+    {
+        "bid_id": "16",
+        "no_bedroom": 3,
+        "no_bathroom": 2,
+        "sqft": 1000,
+        "asking_price": 699000.0,
+        "create_at": "4/30/2021",
+        "address": {
+            "address": "1657 31st St Nw Unit106 WASHINGTON, DC 20007",
+            "state": "DC",
+            "zip": 20007,
+            "neighborhood": "WASHINGTON"
+        },
+        "neighborhood_score": {
+            "public_school": "C+",
+            "safety": "C",
+            "nightlife": "A+",
+            "cost_of_living": "A",
+            "housing": "A+",
+            "walkscore": "81",
+            "transitscore": "73",
+            "bikescore": "98"
+        },
+        "bid_detail": {
+            "waive_inspection": 1,
+            "personal_letter": 1,
+            "waive_appraisal": 1,
+            "all_cash": 1,
+            "escalation_clause": 1,
+            "increase_downpayment": 1,
+            "increase_earnest_money_deposit": 1,
+            "closing_date_flexibility": 1,
+            "bid_over_list_price": 10
+        }
+    },
+    {
+        "bid_id": "17",
+        "no_bedroom": 2,
+        "no_bathroom": 2,
+        "sqft": 1052,
+        "asking_price": 549900.0,
+        "create_at": "4/30/2021",
+        "address": {
+            "address": "317 19th St Ne WASHINGTON, DC 20002",
+            "state": "DC",
+            "zip": 20002,
+            "neighborhood": "WASHINGTON"
+        },
+        "neighborhood_score": {
+            "public_school": "C+",
+            "safety": "C",
+            "nightlife": "A+",
+            "cost_of_living": "A",
+            "housing": "A+",
+            "walkscore": "81",
+            "transitscore": "73",
+            "bikescore": "98"
+        },
+        "bid_detail": {
+            "waive_inspection": 1,
+            "personal_letter": 1,
+            "waive_appraisal": 1,
+            "all_cash": 1,
+            "escalation_clause": 1,
+            "increase_downpayment": 1,
+            "increase_earnest_money_deposit": 1,
+            "closing_date_flexibility": 1,
+            "bid_over_list_price": 10
+        }
+    },
+    {
+        "bid_id": "18",
+        "no_bedroom": 3,
+        "no_bathroom": 2,
+        "sqft": 855,
+        "asking_price": 394900.0,
+        "create_at": "4/30/2021",
+        "address": {
+            "address": "804 21st St Ne Unit1 WASHINGTON, DC 20002",
+            "state": "DC",
+            "zip": 20002,
+            "neighborhood": "WASHINGTON"
+        },
+        "neighborhood_score": {
+            "public_school": "C+",
+            "safety": "C",
+            "nightlife": "A+",
+            "cost_of_living": "A",
+            "housing": "A+",
+            "walkscore": "81",
+            "transitscore": "73",
+            "bikescore": "98"
+        },
+        "bid_detail": {
+            "waive_inspection": 1,
+            "personal_letter": 1,
+            "waive_appraisal": 1,
+            "all_cash": 1,
+            "escalation_clause": 1,
+            "increase_downpayment": 1,
+            "increase_earnest_money_deposit": 1,
+            "closing_date_flexibility": 1,
+            "bid_over_list_price": 10
+        }
+    },
+    {
+        "bid_id": "19",
+        "no_bedroom": 2,
+        "no_bathroom": 1,
+        "sqft": 1180,
+        "asking_price": 997000.0,
+        "create_at": "4/30/2021",
+        "address": {
+            "address": "2032 37th St Nw WASHINGTON, DC 20007",
+            "state": "DC",
+            "zip": 20007,
+            "neighborhood": "WASHINGTON"
+        },
+        "neighborhood_score": {
+            "public_school": "C+",
+            "safety": "C",
+            "nightlife": "A+",
+            "cost_of_living": "A",
+            "housing": "A+",
+            "walkscore": "81",
+            "transitscore": "73",
+            "bikescore": "98"
+        },
+        "bid_detail": {
+            "waive_inspection": 1,
+            "personal_letter": 1,
+            "waive_appraisal": 1,
+            "all_cash": 1,
+            "escalation_clause": 1,
+            "increase_downpayment": 1,
+            "increase_earnest_money_deposit": 1,
+            "closing_date_flexibility": 1,
+            "bid_over_list_price": 10
+        }
+    }
+]

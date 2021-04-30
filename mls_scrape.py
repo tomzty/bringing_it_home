@@ -89,7 +89,7 @@ def get_listings(driver: webdriver) -> pd.DataFrame:
     neighborhood_list, state_list, zipcode_list = get_neighborhood_state_zip(driver)
     bedr_list, bathr_list, sqft_list = get_bedr_bathr_sqft(driver)
 
-    df = pd.DataFrame(list(zip(full_address_list, neighborhood_list,state_list,zipcode_list,bedr_list,bathr_list,sqft_list,asking_price_list)),columns=['full_address', 'neighborhood', 'state','zipcode','no_bedroom','no_bathroom','sqft','asking_Pr'])
+    df = pd.DataFrame(list(zip(full_address_list, neighborhood_list,state_list,zipcode_list,bedr_list,bathr_list,sqft_list,asking_price_list)),columns=['address', 'neighborhood', 'state','zip','no_bedroom','no_bathroom','sqft','asking_price'])
     return df
     
 

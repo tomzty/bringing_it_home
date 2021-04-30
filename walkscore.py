@@ -30,5 +30,5 @@ def get_scores(location_str):
 
     return str(data['walkscore']), str(data['transit']['score']), str(data['bike']['score'])
 
-var  = input('Enter Address: ')
-walkscore(var)
+# var  = input('Enter Address: ')
+# walkscore(var)

@@ -16,7 +16,7 @@ import numpy as np
 web_driver = webdriver.Chrome('/usr/local/bin/chromedriver')
 
 
-def get_niche_grade(driver: webdriver, property_id: int) -> pd.DataFrame:
+def get_niche_grade(driver: webdriver, property_id: int):
     neighborhood = 'WASHINGTON' # getNeighborhood(property_id)
     result = []
     niche_base_url = 'https://www.niche.com/places-to-live/'
@@ -38,6 +38,6 @@ def get_niche_grade(driver: webdriver, property_id: int) -> pd.DataFrame:
     result['neighborhood'] = [neighborhood]
     df = pd.DataFrame.from_dict(result)
 
-    return df
+    return result
 
 
