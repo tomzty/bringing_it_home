@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery Test page</title>
+    
+   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script>
+    if (typeof jQuery != 'undefined') {
+        console.log(jQuery.fn.jquery);
+    }
+    </script>
+    <style>
+#myinput {
+  background: linear-gradient(to right, #82CFD0 0%, #82CFD0 50%, #fff 50%, #fff 100%);
+  border: solid 1px #82CFD0;
+  border-radius: 8px;
+  height: 7px;
+  width: 356px;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+}
+    </style>
+</head>
+
+<body>
+    <script>
+        localStorage.clear()
+    </script>
+    
+    <form>
+        <input type="checkbox" name='favorites' value="1"> abc </input> <br>
+        <input type="checkbox" name='abcde' value="1" id='abcde' onclick="temp(this)"> abcde </input>
+        <input type="checkbox" name='xyz' value="1" id='xyz' onclick="temp(this)"> xyz </input>
+
+
+    </form>
+    <div class="chrome">
+        <input id="myinput" min="0" max="60" type="range" value="30" />
+    </div>
+    <script>
+        document.getElementById("myinput").oninput = function() {
+  var value = (this.value-this.min)/(this.max-this.min)*100
+  this.style.background = 'linear-gradient(to right, #6d75bf 0%, #6d75bf ' + value + '%, #fff ' + value + '%, white 100%)'
+};
+    </script>
+    
+</body>
+
+</html>

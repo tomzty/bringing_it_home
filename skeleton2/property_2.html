@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel='stylesheet' href='css/styles.css'>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        html{
+            overflow: visible;
+        }
+    </style>
+</head>
+<body>
+    <script src='js/scripts.js'></script>
+    <div class='fixed-top containder-fluid'>
+        <br>
+    <button type="button" class="btn btn-primary ms-3 btn-sm" style="background-color: #4F80E1;" onclick="location.href='home.html'" > Back </button>
+    </div>
+    <div>
+        <img src="https://bringingithomebucket.s3.us-east-2.amazonaws.com/18.1.jpg" class='img-fluid'>
+        <img src="https://bringingithomebucket.s3.us-east-2.amazonaws.com/18.8.jpg" class='img-fluid'>
+        <img src="https://bringingithomebucket.s3.us-east-2.amazonaws.com/18.7.jpg" class='img-fluid'>
+        <img src="https://bringingithomebucket.s3.us-east-2.amazonaws.com/18.6.jpg" class='img-fluid'>
+        <img src="https://bringingithomebucket.s3.us-east-2.amazonaws.com/18.5.jpg" class='img-fluid'>
+        <img src="https://bringingithomebucket.s3.us-east-2.amazonaws.com/18.4.jpg" class='img-fluid'>
+    </div>
+    <div class="container-fluid fixed-bottom bg-white" id="corner">
+        <div align='center'>
+            <h1 data-bs-toggle="collapse" href="#collapseExample" id='arrow' onclick="change_arrow(this)">&uarr;</h1>
+        </div>
+        
+        <div class='row'>
+            <div class='col float-left'>
+                <h1 class="fw-bolder">$394,900</h1>
+            </div>
+            <div class='col m-1'>
+                <p class="fw-bolder text-end">2b | 3b | 855 sqft</p>
+            </div>
+        </div>
+        <div class='row'>
+            <p class="fw-bolder m-0">804 21st St Ne Unit1 WASHINGTON, DC 20002</p>  
+            <p>Commute time: 15 mins</p>           
+        </div>
+        <div class='row' onclick="location.href='bidding.html'">
+            <div class="col">
+            <button type="button" class="btn btn-primary rounded-pill mb-1 float-end" style="background-color: #4F80E1;width: 60%;"> Calculate Bid Score </button>
+            </div>
+        </div>
+        <div class='row' onclick="location.href='property_like.html'">
+            <div class="col">
+            <button type="button" class="btn btn-primary rounded-pill mb-3 float-end" style="background-color: #4F80E1;width: 60%;"> Provide Feedback </button>
+            </div>
+        </div>
+
+        <div class='row'>
+            <div class="collapse" id="collapseExample">
+                <p class='m-0'>Bike Score: 98</p>
+                <p class='m-0'>Transit Score: 73</p>
+                <p class='m-0'>Walk Score: 81</p>
+                <p class='m-0'>Cost of Living: A</p>
+                <p class='m-0'>Housing: A+</p>
+                <p class='m-0'>Nightlife: A+</p>
+                <p class='m-0'>Public School: C+</p>
+                <p class='m-0'>Safety: C</p>
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
+</html>
